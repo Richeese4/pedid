@@ -3,7 +3,7 @@
    var id = $(this).val();
    $.ajax({
     method: "GET",
-    url: "https://api-rekening.my.id/trueid/game/" + game + "/?id=" + id + "&key=" + api,
+    url: "https://api-rekening.my.id/trueid/game/freefire/ " + game + "/?id=" + id + "&key=" + api,
     beforeSend: function () {
      $('#cek').val('Sedang Mengecek ID Player');
     },
